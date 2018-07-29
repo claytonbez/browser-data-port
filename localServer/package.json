@@ -1,0 +1,15 @@
+{
+  "name": "browser-data-port-local",
+  "version": "0.0.1",
+  "description": "Using multiple websocket connections to facilitate low level interfaces via the browser",
+  "main": "remote-server.js",
+  "scripts": {
+    "start": "node local-server.js"
+  },
+  "author": "CB BEZUIDENHOUT",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
