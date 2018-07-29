@@ -7,6 +7,8 @@ The Fix: Make two seperate connections via socket.io to the remote server where 
 
 The browser acts as a port between the two servers and basically enables a NodeJS developer to now send commands that can affect the low level operations of the underlying OS on the user end.
 
+![enter image description here](https://github.com/claytonbez/browser-data-port/blob/master/git-assets/img.png?raw=true)
+
 ### Installation
 
 Run `npm install` in the local and remote directories seperately. Launch the servers using `npm start`. 
